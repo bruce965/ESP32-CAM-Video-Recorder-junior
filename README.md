@@ -25,11 +25,11 @@ Obviously, you need the wifi running for all these wifi features - but you can d
 
 The main screen is the same, except for the link to the esp32_sd_file_manager to download or edit the avi's and config.txt.
 
-<img src="./v58/first.jpg">
+<img src="./docs/first.jpg">
 
 Then there is the streaming screen (not shown) and the photos screen below - you can 10 photos at 3 second intervals.
 
-<img src="./v58/second.jpg">
+<img src="./docs/second.jpg">
 
 This is the esp32_sd_file_manager_screen:  
 1.  SD space and used space
@@ -47,20 +47,20 @@ There is a problem with Android downloading to the browser in a Sansumg phone - 
 
 (Jan 12, 2022 - add date and time to files)  
 
-<img src="./v58/newfm.jpg">
+<img src="./docs/newfm.jpg">
 
 Here is the download file dialog on Windows.
 
-<img src="./v58/fourth.jpg">
+<img src="./docs/fourth.jpg">
 
 You can also end recording and reboot from the webpage.
 
-<img src="./v58/last.jpg">
+<img src="./docs/last.jpg">
 
 Under good conditions, you can download at about 2 Mbps while recording, 3 Mbps when not recording,
 from an esp32 max of about 3.5 Mbps.
 
-<img src="./v58/2mbps.jpg">
+<img src="./docs/2mbps.jpg">
 
 ## Update Dec 28, 2021 - new version with http browser file tranfer to download movies 
 
@@ -145,8 +145,8 @@ v10 - fast and just one version
 
 ## Update Sep 24, 2020 - ESP32-CAM "gopro"
 v09 - faster version - controlled by switches
-<img src="./v09_schematic.jpg">
-<img src="./v09_hardware.jpg">
+<img src="./docs/v09_schematic.jpg">
+<img src="./docs/v09_hardware.jpg">
 
 - the Internet is shut off by default, so you #define IncludeInternet to 1, and put in your ssid and password
 - if you have no switches attached to gpio12 and gpio13, then they will not be grounded and it will "record" and "svga 25fps"
@@ -176,7 +176,7 @@ v04 - added wifi, time, stream @ 5 fps, and photos @ 1 fps
  
  v04a - bugfix to the streaming when used in poor wifi situations, and more stats on webpage to track fps
  
-<img src="./web_v04.jpg">
+<img src="./docs/web_v04.jpg">
 
  ## Original Sep 12, 2020 
  
